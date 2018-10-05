@@ -29,3 +29,30 @@ class SortedTableMap(MapBase):
         if j==len(self._table) or self._table[j].key!=k:
             raise KeyError('Key Error: '+ repr(k))
         return self._table[j].value
+        
+    def __setitem__(self,k,v):
+        j = self._find_index(k,o,len(self._table)-1)
+        if j<len(self._table) and self._table[j]._key == k:
+            self._table[j]._value=v
+        else:
+            self._table.insert(j,self._item(k,v))
+            
+    def __delitem__(self,k):
+        j = self._find_index(k,0,len(self._table)-1)
+        if j==len(self._table) or self._table[j]._key!=k:
+            raise KeyError('Key Error: '+repr(k))
+        self._table.pop(j)
+        
+    def __iter__(self):
+        for item in self._table:
+            yield item._key
+            
+    def __reversed__(self):
+        for item in reversed(self._table):
+            yield item._key
+            
+    def find_min(self):
+        if len(self._table) > 0:
+            return (self._table[0]._key, self._table[-1]._value)
+        else:
+            return None
