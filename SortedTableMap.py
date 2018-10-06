@@ -56,3 +56,35 @@ class SortedTableMap(MapBase):
             return (self._table[0]._key, self._table[-1]._value)
         else:
             return None
+            
+    def find_ge(self,k):
+        j = self._find_index(k,0,len(self._table)-1)
+        if j<len(self._table):
+            return(self._table[j]._key, self._table[j]._value)
+        else:
+            return None
+            
+    def find_It(self,k):
+        j = self._find_index(k,0,len(self._table) - 1)
+        if j>0:
+            return(self._table[j-1]._key,self._table[j-1]._value)
+        else:
+            return None
+            
+    def find_gt(self,k):
+        j = self._find_index(k,0,len(self._table)-1)
+        if j<len(self._table) and self._table[j]._key == k:
+            j += 1
+        if j<len(self._table):
+            return (self._table[j]._key, self._table[j]._value)
+        else:
+            return None
+            
+    def find_range(self,start,stop):
+        if start is None:
+            j = 0
+        else:
+            j = self._find_index(start,0,len(self._table) - 1)
+        while j < len(self._table) and (stop is None or self._table[j]._key<stop):
+            yield (self._table[j]._key, self._table[j]._value)
+            j += 1
