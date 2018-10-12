@@ -37,4 +37,31 @@ class TreeMap(LinkedBinaryTree, MapBase):
             while self.right(walk) is not None:
                 walk = self.right(walk)
             return walk
+            
+        def first(self):
+            return self._subtree_first_position(self.root()) if len(self)>0 else None
+            
+        def last(self):
+            return self._subtree_last_position(self.root()) if len(self)>0 else None
+            
+        def before(self,p):
+            self._validate(p)
+            if self.left(p):
+                return self._subtree_last_position(self.left(p))
+            else:
+                walk = p
+                above = self.parent(walk)
+                while above is not None and walk == self.left(above):
+                    walk = above
+                    above = self.parent(walk)
+                return above
+                
+        def after(self,p):
+            def find_position(self,k):
+                if self.is_empty():
+                    return None
+                else:
+                    p = self._subtree_search(self.root(),k)
+                    self._rebalance_access(p)
+                    return p
                     
