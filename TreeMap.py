@@ -65,3 +65,32 @@ class TreeMap(LinkedBinaryTree, MapBase):
                     self._rebalance_access(p)
                     return p
                     
+        def find_min(self):
+            if self.is_empty():
+                return None
+            else:
+                p = self.first()
+                return (p.key(),p.value())
+                
+        def find_ge(self,k):
+            if self.is_empty():
+                return None
+            else:
+                p = self.find_position(k)
+                if p.key() < k:
+                    p = self.after(p)
+                return (p.key(),p.value()) if p is not None else None
+                
+                
+        def find_range(self,start,stop):
+            if not self.is_empty():
+                if start is None:
+                    p = self.first()
+                else:
+                    p = self.fin_position(start)
+                    if p.key()<start:
+                        p=self.after(p)
+                while p is not None and (stop is None or p.key() < stop):
+                    yield (p.key(), p.value())
+                    p = self.after(p)
+                    
