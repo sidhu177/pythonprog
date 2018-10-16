@@ -94,3 +94,38 @@ class TreeMap(LinkedBinaryTree, MapBase):
                     yield (p.key(), p.value())
                     p = self.after(p)
                     
+        
+        def __getitem__(self,k):
+            if self.is_empty():
+                raise KeyError('Key Error: '+ repr(k))
+            else:
+                p = self._subtree_search(self.root(),k)
+                self._rebalance_access(p)
+                if k!=p.key():
+                    raise KeyError('Key Error: ' + repr(k))
+                return p.value()
+                
+        def __setitem__(self,k,v):
+            if self.is_empty():
+                leaf = self._add_root(self._Item(k,v))
+            else:
+                p = self._subtree_search(self.root(),k)
+                if p.key()==k:
+                    p.element()._value = v
+                    self._rebalance_access(p)
+                    return
+                else:
+                    item = self._Item(k,v)
+                    if p.key()<k:
+                        leaf = self._add_right(p, item)
+                    else:
+                        leaf = self._add_left(p, item)
+            self._rebalance_insert(leaf)
+            
+        def __iter__(self):
+            p = self.first()
+            while p is not None:
+                yield p.key()
+                p = self.after(p)
+                
+                    
