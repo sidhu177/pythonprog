@@ -21,3 +21,6 @@ class AVLTreeMap(TreeMap):
         def right_height(self):
             return self._right._height if self._right is not None else 0
             
+        def _recompute_height(self,p):
+            p._node._height = 1+max(p._node.left_height(),p._node.right_height())
+            
