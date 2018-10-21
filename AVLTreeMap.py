@@ -24,3 +24,5 @@ class AVLTreeMap(TreeMap):
         def _recompute_height(self,p):
             p._node._height = 1+max(p._node.left_height(),p._node.right_height())
             
+        def _isbalanced(self,p):
+            return abs(p._node.left_height()-p._node.right_height()) < 1
