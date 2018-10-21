@@ -26,3 +26,34 @@ class AVLTreeMap(TreeMap):
             
         def _isbalanced(self,p):
             return abs(p._node.left_height()-p._node.right_height()) < 1
+            
+        def _tall_child(self,p,favorleft=False):
+            if p._node.left_height() + (1 if farvorleft else 0) > p:
+                return self.left(p)
+            else:
+                return self.right(p)
+                
+        def _tall_grandchild(self,p):
+            child = self._tall_child(p)
+            alignment = (child==self.left(p))
+            return self._tall_child(child, alignment)
+            
+        def _rebalance(self,p):
+            while p is not None:
+                old_height = p._node._height
+                if not self._isbalanced(p):
+                    p = self.restructure(self._tall_grandchild(p))
+                    self._recompute_height(self.left(p))
+                    self._recompute_height(self.right(p))
+                self._recompute_height(p)
+                if p._node._height == old_height:
+                    p = None
+                else:
+                    p = self.parent(p)
+                    
+        def _rebalance_insert(self,p):
+            self._rebalance(p)
+            
+        def _rebalance_delete(self,p):
+            self._rebalance(p)
+            
