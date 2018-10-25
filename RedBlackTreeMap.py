@@ -21,4 +21,34 @@ class RedBlackTreeMap(TreeMap):
         def _is_red(self,p): return p is not None and p._node._red
         def _is_red_leaf(self,p): return self._is_red(p) and self.is_leaf(p)
             
+        def _get_red_child(self,p):
+            for child in (self.left(p), self.right(p)):
+                if self._is_red(child):
+                    return child
+            return None
             
+        def _rebalance_insert(self,p):
+            self._resolve_red(p)
+            
+        def _resolve_red(self,p):
+            if self.is_root(p):
+                self._set_black(p)
+            else:
+                parent = self.parent(p)
+                if self._is_red(parent):
+                    uncle = self.sibling(parent)
+                    if not self._is_red(uncle):
+                        middle = self._restructure(p)
+                        self._set_black(middle)
+                        self._set_red(self.left(middle))
+                        self._set_red(self.right(middle))
+                    else:
+                        grand = self.parent(parent)
+                        self._set_red(grand)
+                        self._set_black(self.left(grand))
+                        self._set_black(self.right(grand))
+                        self._resolve_red(grand)
+                        
+            
+            
+        
