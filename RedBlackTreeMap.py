@@ -49,6 +49,48 @@ class RedBlackTreeMap(TreeMap):
                         self._set_black(self.right(grand))
                         self._resolve_red(grand)
                         
+        def _rebalance_delete(self,p):
+            if len(self)==1:
+                self._set_black(self.root())
+            elif p is not None:
+                n = self.num_children(p)
+                if n==1:
+                    c = next(self.children(p))
+                    if not self._is_red_leaf(c):
+                        self._fix_deficit(p,c)
+                    elif n==2:
+                        if self._is_red_leaf(self.leaf(p)):
+                            self._set_black(self.left(p))
+                        else:
+                            self._set_black(self.right(p))
+                            
+        def _fix_deficit(self,z,y):
+            if not self._is_red(y):
+                x = self._get_red_child(y)
+                if x is not None:
+                    old_color = self._is_red(z)
+                    middle = self._restructure(x)
+                    self._set_color(middle, old_color)
+                    self._set_black(self.left(middle))
+                    self._set_black(self.right(middle))
+                else:
+                    self._set_red(z)
+                    if self._is_red(z):
+                        self._set_black(z)
+                    elif not self.is_root(z):
+                        self._fix_deficit(self.parent(z), self.sibling(z))
+            else:
+                self._rotate(y)
+                self._set_black(y)
+                self._set_red(z)
+                if z == self.right(y):
+                    self._fix_deficit(z, self.left(z))
+                else:
+                    self._fix_deficit(z, self.right(z))
+                    
+            
+        
+                
             
             
         
