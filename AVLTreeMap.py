@@ -2,7 +2,7 @@
 """
 Created on Thu Oct 18 22:00:05 2018
 
-Taken from Data Structures and Algorithms using Python.
+Taken from Data Structures and Algorithms using Python
 
 @author: SIDHARTH
 """
