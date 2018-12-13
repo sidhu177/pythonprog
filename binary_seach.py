@@ -2,7 +2,7 @@
 """
 Created on Sat Aug 11 22:24:17 2018
 
-Recursive Binary search taken from Data Structures and Algorithms in Python 
+Recursive Binary search taken from Data Structures and Algorithms in Python.
 
 @author: SIDHARTH
 """
