@@ -9,7 +9,7 @@ Creating list of Anagrams from a given word taken from Impractical Python Projec
 
 import sys
 
-file = 'C:/Users/Sidra/Downloads/WordList.txt'
+file = 'C:/Users/Sidra/Downloads/CSW15.txt'
 
 def load(file):
     try:
@@ -22,24 +22,22 @@ def load(file):
         sys.exit(1)
         
 word_list = load(file)
-
 anagram_list = []
-
-name = 'Angel'
-print("Input name = {}".format(name))
+name = 'Sidharth'
 name = name.lower()
-print("Using name = {}".format(name))
-
+##print("Input name = {}".format(name))
+##print("Using name = {}".format(name))
 name_sorted = sorted(name)
 for word in word_list:
     word = word.lower()
     if word!=name:
         if sorted(word)==name_sorted:
-            anagram_list.append(word)            
-print()
+            anagram_list.append(word)
 
+total_anagrams = len(anagram_list)
+print("total anagrams found ", total_anagrams)
 if len(anagram_list)==0:
-    print("you need a bigger dict")
+    print("\n you need a bigger dictionary")
 else:
     print("Anagrams =", *anagram_list, sep='\n')
     
