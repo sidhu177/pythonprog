@@ -9,7 +9,7 @@ Creating list of Anagrams from a given word taken from Impractical Python Projec
 
 import sys
 
-file = 'C:/Users/Sidra/Downloads/CSW15.txt'
+file = 'C:/Users/Sidra/Downloads/WordList.txt'
 
 def load(file):
     try:
@@ -23,7 +23,7 @@ def load(file):
         
 word_list = load(file)
 anagram_list = []
-name = 'Sidharth'
+name = 'Mobile'
 name = name.lower()
 ##print("Input name = {}".format(name))
 ##print("Using name = {}".format(name))
