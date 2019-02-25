@@ -23,7 +23,7 @@ def load(file):
         
 word_list = load(file)
 anagram_list = []
-name = 'Mobile'
+name = 'one'
 name = name.lower()
 ##print("Input name = {}".format(name))
 ##print("Using name = {}".format(name))
