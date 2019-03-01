@@ -2,7 +2,7 @@
 """
 Created on Thu Feb 28 23:55:14 2019
 
-@author: sidra
+Taken from Data Wrangling with Python, Orielly
 """
 
 from xml.etree import ElementTree as ET
@@ -23,3 +23,10 @@ for observation in data:
             rec_value = item.attrib['Numeric']
         else:
             rec_key = item.attrib[lookup_key]
+            rec_value = item.attrib['Code']
+            
+        record[rec_key] = rec_value
+        
+    all_data.append(record)
+    
+print all_data
