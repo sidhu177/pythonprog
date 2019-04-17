@@ -4,7 +4,7 @@ Created on Fri Dec 14 18:55:35 2018
 
 Taken from Fluent Python
 
-@author: sid
+
 """
 
 from array import array
