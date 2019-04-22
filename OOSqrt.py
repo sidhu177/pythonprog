@@ -3,8 +3,6 @@
 Created on Sun Jun 10 17:33:07 2018
 
 Taken from Python 3 Object Oriented Programming  by Dusty Phillips, Apress
-
-@author: SIDHARTH
 """
 
 import math
