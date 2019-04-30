@@ -2,7 +2,6 @@
 """
 Created on Thu Aug 16 21:21:10 2018.
 
-@author: SIDHARTH
 """
 
 import sys
