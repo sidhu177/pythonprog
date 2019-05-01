@@ -3,8 +3,6 @@
 Created on Tue Oct 30 21:46:48 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def merge(S1, S2, S):
