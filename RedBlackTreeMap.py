@@ -3,8 +3,6 @@
 Created on Tue Oct 23 21:11:33 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class RedBlackTreeMap(TreeMap):
