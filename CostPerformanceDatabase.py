@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Oct  8 21:56:44 2018
-
-@author: SIDHARTH
 """
 
 class CostPerformanceDatabase:
