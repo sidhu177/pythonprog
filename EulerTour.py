@@ -4,7 +4,6 @@ Created on Tue Sep 11 22:38:23 2018
 
 Taken from Data Structures and Algorithms using Python 
 
-@author: SIDHARTH
 """
 
 class EulerTour:
