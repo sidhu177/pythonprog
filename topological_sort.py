@@ -3,8 +3,6 @@
 Created on Wed Dec  5 21:08:34 2018
 
 Taken from Data Structures and Algorithms using Python text book...
-
-@author: sidharth
 """
 
 def topological_sort(g):
