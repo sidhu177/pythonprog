@@ -3,8 +3,6 @@
 Created on Fri Dec  7 22:22:18 2018
 
 Taken from Data Structures and Algorithms using Python text book...
-
-@author: sid
 """
 
 def shortest_path_tree(g,s,d):
