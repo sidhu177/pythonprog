@@ -3,8 +3,6 @@
 Created on Thu Nov  8 22:25:25 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def quick_select(S,k):
