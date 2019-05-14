@@ -3,8 +3,6 @@
 Created on Sun Jan  6 23:48:22 2019
 
 gnomesort example from Python Algorithms by Magnus Lie Hetland
-
-@author: sidra
 """
 
 def gnomesort(seq):
