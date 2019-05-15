@@ -3,8 +3,6 @@
 Created on Sun Nov  4 22:21:17 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def quick_sort(S):
