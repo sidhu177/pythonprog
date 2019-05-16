@@ -3,8 +3,6 @@
 Created on Wed Sep 26 21:33:03 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class HashMapBase(MapBase):
