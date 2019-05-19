@@ -3,8 +3,6 @@
 Created on Sat Nov 10 22:12:30 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def find_boyer_moore(T,P):
