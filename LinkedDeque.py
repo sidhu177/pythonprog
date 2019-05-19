@@ -3,8 +3,6 @@
 Created on Tue Aug 21 21:32:12 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class LinkedDeque(_DoublyLinkedBase):
