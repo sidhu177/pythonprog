@@ -3,8 +3,6 @@
 Created on Tue Oct  2 22:48:31 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class ProbeHashMap(HashMapBase):
