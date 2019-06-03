@@ -3,8 +3,6 @@
 Created on Sat Sep 22 07:42:43 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class AdaptableHeapPriorityQueue(HeapPriorityQueue):
