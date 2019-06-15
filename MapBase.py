@@ -3,8 +3,6 @@
 Created on Tue Sep 25 22:02:06 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class MapBase(MutableMapping):
