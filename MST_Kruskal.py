@@ -3,8 +3,6 @@
 Created on Mon Dec 10 21:33:21 2018
 
 Taken from Data Structures and Algorithms using Python text book...
-
-@author: sid
 """
 
 def MST_Kruskal(g):
