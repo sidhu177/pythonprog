@@ -3,8 +3,6 @@
 Created on Mon Oct 29 22:10:35 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def merge_sort(S):
