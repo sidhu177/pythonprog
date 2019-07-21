@@ -5,8 +5,6 @@ Created on Fri Sep 21 22:44:13 2018
 Taken from Data Structure and Algorithms using Python 
 
 Following program is a sorting method for a collection of elements stored in a list
-
-@author: SIDHARTH
 """
 def pq_sort(C):
     n = len(C)

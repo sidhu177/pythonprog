@@ -3,8 +3,6 @@
 Created on Wed Sep 12 22:38:14 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class ExpressionTree(LinkedBinaryTree):

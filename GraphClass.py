@@ -1,10 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Created on Tue Nov 27 21:39:19 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class Graph:

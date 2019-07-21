@@ -3,8 +3,6 @@
 Created on Fri Nov  9 22:22:21 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def find_brute(T,P):

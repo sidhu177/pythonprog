@@ -3,8 +3,6 @@
 Created on Mon Sep 17 23:06:17 2018
 
 Taken From Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class UnsortedPriorityQueue(PriorityQueueBase):

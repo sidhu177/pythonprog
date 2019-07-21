@@ -3,8 +3,6 @@
 Created on Tue Dec  4 22:17:59 2018
 
 Taken from Data Structures and Algorithms using Python text book...
-
-@author: sidra
 """
 
 def floyd_warshall(g):

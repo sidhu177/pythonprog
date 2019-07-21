@@ -3,8 +3,6 @@
 Created on Thu Dec  6 21:09:23 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def shortest_path_lengths(g,src):

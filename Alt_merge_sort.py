@@ -1,10 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Created on Wed Oct 31 22:47:45 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def merge(S1,S2,S):

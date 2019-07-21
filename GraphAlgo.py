@@ -1,10 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Created on Mon Nov 26 22:11:58 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class Vertex:
