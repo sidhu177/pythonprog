@@ -3,8 +3,6 @@
 Created on Tue Jul 31 22:22:11 2018
 
 Taken from Data structures and Algorithms using Python by T.Goodrich et al
-
-@author: SIDHARTH
 """
 
 class CreditCard:
