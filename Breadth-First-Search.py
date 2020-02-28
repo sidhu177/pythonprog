@@ -3,8 +3,6 @@
 Created on Sun Dec  2 01:51:49 2018
 
 Taken from Data Structures and Algorithms using Python text book...
-
-@author: sid
 """
 
 def BFS(g,s,discovered):
