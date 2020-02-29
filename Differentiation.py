@@ -1,5 +1,5 @@
 """
-Created on Sat Feb 23 23:21:27 2019
+
 ...
 Functions for Forward,Backward and Central Difference
 Taken from the book "A primer on Scientific Programming using Python by Springer"
