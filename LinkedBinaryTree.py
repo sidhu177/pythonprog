@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Aug 28 22:25:06 2018
-
 Taken from Data structures and algorithms in Python by M.T.Goodrich et al
 """
 
