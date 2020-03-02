@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Aug 18 16:13:44 2018
 
-@author: SIDHARTH
-"""
 
 class LinkedStack:
     class _Node:
