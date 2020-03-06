@@ -3,8 +3,6 @@
 Created on Sun Dec  9 21:05:05 2018
 
 Taken from Data Structures and Algorithms using Python text book...
-
-@author: sid
 """
 
 def MST_PrimJarnik(g):
