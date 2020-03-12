@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Taken From Data Structures and Algorithms using Python
 """
