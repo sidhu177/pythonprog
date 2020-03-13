@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov 13 21:52:58 2018
-
 Taken from Data Structures and Algorithms using Python
-
 """
 
 def compute_kmp_fail(P):
