@@ -3,8 +3,6 @@
 Created on Tue Nov  6 21:08:30 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def decorated_merge_sort(data, key=None):
