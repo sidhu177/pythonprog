@@ -3,8 +3,6 @@
 Created on Tue Dec 11 21:34:56 2018
 
 Taken from Data Structures and Algorithms using Python text book...
-
-@author: sidra
 """
 
 class Partition:
