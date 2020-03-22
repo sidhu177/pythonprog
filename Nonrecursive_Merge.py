@@ -3,8 +3,6 @@
 Created on Thu Nov  1 22:26:58 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def merge(src, result, start, inc):
