@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Feb 24 23:49:46 2019
-
-
 Functions for Integration
 Taken from the book "A primer on Scientific Programming using Python by Springer"
 
