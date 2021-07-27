@@ -6,7 +6,7 @@ def anagram(lst):
 
     for i in lst:
         val = sorted(i)
-        val = "". join(val) 
+        val = "".join(val) 
         dict_sort['word'].append(i)
         dict_sort['lst_sort'].append(val)
 
