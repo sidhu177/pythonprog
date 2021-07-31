@@ -3,8 +3,6 @@
 Created on Thu Sep 27 21:53:39 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class ChainHashMap(HashMapBase):
