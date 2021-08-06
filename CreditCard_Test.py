@@ -3,8 +3,6 @@
 Created on Wed Aug  1 21:56:41 2018
 
 Taken from Data structures and Algorithms using Python by T.Goodrich et al
-
-@author: SIDHARTH
 """
 
 if __name__=='__main__':
