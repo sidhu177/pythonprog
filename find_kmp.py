@@ -3,8 +3,6 @@
 Created on Mon Nov 12 23:26:48 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def find_kmp(T,P):
