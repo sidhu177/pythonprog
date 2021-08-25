@@ -3,8 +3,6 @@
 Created on Mon Nov  5 22:46:32 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def inplace_quick_sort(S,a,b):
