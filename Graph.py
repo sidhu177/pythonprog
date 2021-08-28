@@ -3,8 +3,6 @@
 Created on Wed Mar 20 23:45:22 2019
 
 Color Plot example taken from Designing Machine Learning Systems with Python by David Julian, Pakt publishing
-
-@author: sidra
 """
 
 import numpy as np
