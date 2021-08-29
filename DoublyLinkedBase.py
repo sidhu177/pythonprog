@@ -1,5 +1,5 @@
 """
-Created on Tue Aug 21 21:05:48 2018
+Created on Tue Aug 21 2018
 
 Taken from Data structures and Algorithms using Python by T.Goodrich et al.
 """
