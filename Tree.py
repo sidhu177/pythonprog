@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Aug 26 09:22:31 2018
-
-@author: SIDHARTH
 """
 
 class Tree:
