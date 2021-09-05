@@ -3,8 +3,6 @@
 Created on Wed Feb 13 23:15:50 2019
 
 Creating list of Anagrams from a given word taken from Impractical Python Projects by Lee Vaughan Published by No Starch Press
-
-@author: sid ramesh
 """
 
 import sys
