@@ -3,8 +3,6 @@
 Created on Mon Sep 24 22:03:50 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 filename = open("c:/Users/SIDHARTH/Python/pythonprog/freq.txt", "rb").read()
