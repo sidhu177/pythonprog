@@ -3,8 +3,6 @@
 Created on Fri Nov 23 23:12:03 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 def LCS(X,Y):
