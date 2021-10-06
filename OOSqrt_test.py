@@ -3,8 +3,6 @@
 Created on Sun Jun 10 17:44:21 2018
 
 Taken from Python 3 Object Oriented Programming by Dusty Phillips, Apress
-
-@author: SIDHARTH
 """
 
 point1 = Point()
