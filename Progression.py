@@ -2,7 +2,6 @@
 """
 Created on Fri Aug  3 22:47:14 2018
 
-@author: SIDHARTH
 """
 
 class Progression:
