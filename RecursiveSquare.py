@@ -3,8 +3,6 @@
 Created on Thu Jun  7 22:24:02 2018
 
 Taken from Data Structures and Algorithms with Python, Kent et al, Springer, 2015
-
-@author: SIDHARTH
 """
 
 import turtle
