@@ -3,8 +3,6 @@
 Created on Wed Oct 10 22:10:37 2018
 
 Taken from Data Structures and Algorithms using Python
-
-@author: SIDHARTH
 """
 
 class TreeMap(LinkedBinaryTree, MapBase):
