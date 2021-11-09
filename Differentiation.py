@@ -1,9 +1,6 @@
 """
-
-...
 Functions for Forward,Backward and Central Difference
 Taken from the book "A primer on Scientific Programming using Python by Springer"
-
 """
 
 class Diff:
