@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jun  5 23:42:10 2018
-
-@author: SIDHARTH
 """
 
 def recursiveSum(n):
